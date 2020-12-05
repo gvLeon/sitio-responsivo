@@ -241,7 +241,7 @@ figure{
   }
   .menu{
     position: fixed;
-    background-color: violet;
+    background-color:rgba(240, 230, 140, 0.712);
     z-index: 1;
     top: 0;
     bottom: 0;
