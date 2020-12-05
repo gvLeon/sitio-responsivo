@@ -172,7 +172,7 @@ figure{
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color:rgba(0,0,0,.8);
+  background-color:rgba(180, 182, 39, 0.7);
   display: none;
   line-height: 40px;
   text-align: center;
@@ -180,7 +180,7 @@ figure{
   z-index: 10;
   left: 5px;
   top: 5px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width:1024px) {
@@ -192,7 +192,7 @@ figure{
   }
   .event-detail h3{
     font-size: 21px;
-    margin: 10px;
+    margin: 5px;
   }
   .event-detail p {
     font-size: 19px;
@@ -202,14 +202,14 @@ figure{
 @media screen and (max-width:768px) {
   .event{
     width: 80%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
   .container{
     justify-content: center;
   }
   .event img {
     width: 100%;
-    height: 250px;
+    height: 200px;
   }
   .event-detail p {
     font-size: 18px;
@@ -220,37 +220,37 @@ figure{
   }
   .event-detail h3{
     font-size: 22px;
-    margin: 5px;
   }
-
 }
 
 @media screen and (max-width:576px) {
   .event{
     width: 95%;
-    margin-bottom: 22px;
-  }
-  .event-detail p {
-    font-size: 18px;
     margin-bottom: 20px;
   }
-
-  /* Burger button */
+  .event-detail h3{
+    font-size: 20px;
+  }
+  .event-detail p {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
   .burger-button{
+    margin: 6px;
     display: block;
   }
   .menu{
     position: fixed;
-    background-color:rgba(240, 230, 140, 0.712);
+    background-color:rgba(136, 0, 0, 0.750);
     z-index: 1;
     top: 0;
     bottom: 0;
     left: -100vw;
-    width: 40vw;
+    width: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .5s;
+    transition: 1s;
   }
   .menu.is-active{
     left: 0;
@@ -260,16 +260,17 @@ figure{
     height: auto;
   }
   .header ul {
-    display: initial;
+    margin-top: 60px;
+    display: block;
   }
   .header ul li {
-    height: 50px;
+    height: 30px;
   }
   .header a{
     justify-content: center;
-    height: 40px;
-    font-size: 1.5em;
-    text-decoration: underline;
+    height: 30px;
+    font-size: 18px;
+    font-weight: lighter;
     margin-bottom: .5em;
   }
   .header .logo {
@@ -277,16 +278,15 @@ figure{
     height: 50px;
     padding-top: 10px;
   }
-  .ll{
+  .logoo{
     max-height: 40px;    
   }
- 
   .event{
     width: auto;
     flex-shrink: initial;
   }
   .event-detail{
-    margin: 20px 20px;
+    margin: 15px 15px;
   }
   
 }
