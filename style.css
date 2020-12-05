@@ -232,7 +232,6 @@ figure{
   }
   .event-detail p {
     font-size: 18px;
-    margin-bottom: 20px;
   }
 
   /* Burger button */
@@ -241,7 +240,7 @@ figure{
   }
   .menu{
     position: fixed;
-    background-color: violet;
+    background-color: rgba(89, 0, 255, 0.219);
     z-index: 1;
     top: 0;
     bottom: 0;
